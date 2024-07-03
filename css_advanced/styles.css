@@ -27,7 +27,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     font-family: 'Source Sans Pro';
-	line-height: 1;
+	  line-height: 1;
     width: 100%;
     box-sizing: border-box;
 }
@@ -80,63 +80,152 @@ img{
     font-weight: 400;
     font-style: italic;
   }
-/* Body */
-body{
-    color: #ffffff;
-}
-/* Header styles */
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
-    height: 29.46px;
-    width: 1103.41px;
-}
-/* Navigation Styles */
-header nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1103.41px;
-}
 
-/* Link style */
-header nav ul{
-    display: flex;
-    list-style: none;
-    margin-left: auto;
+/* ------------------------------BODY---------------------------------- */
+body {
+  /* display: flex;
+  flex-direction: column; */
+  background: url(/assets/Object.png) no-repeat ;
+  background-size: contain;
+  height: 2093px;
 
 }
-header nav ul li{
-    margin-left: 2rem;
-    
+/* ------------------------------NAVBAR---------------------------------- */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1103.41px;
+  padding: 2em;
+  width: 1103.41px;
+  height: 29.46px;
+  padding-top: 35.02px;
+   
 }
-header nav ul li a {
-    text-decoration: none;
-    color: #ffffff;
+.nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  width: 234px;
+  height: 15px;
+  
+  
+}
+.nav-bar ul li {
+  
+  margin-right: 15px;
+  padding-left: 20px;
+
+}
+#logo {
+  height: 29.46px;
+  width: 167.02px;
+  padding-left: 171.59px;
+}
+.nav-bar ul li a {
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+}
+/* ------------------------------MAINPART---------------------------------- */
+.main-part div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.main-part div h1{
+  padding-top: 100px;
+  color: #ffffff;
+  font-weight: 700px;
+  font-size: 120px;
+  
+}
+div .emotions {
+  display: flex;
+  flex-direction: row;
+}
+div .emotions span {
+  font-size: 16px;
+  font-weight: 700px;
+  text-align: center;
+  color: #ffffff;
+  padding-left: 60px;
+  margin-top: 8px;
+  margin-right: 8px;
+
+}
+/* ------------------------------BUTTON---------------------------------- */
+button {
+  border-style: none;
+  width: 169px;
+  height: 44px;
+  color: #ffffff;
+  background-color: #C271FF;
+  border-radius: 32px;
+  box-shadow: 10px 10px 10px #242323;
+  margin-top: 36px;
+  margin-left: 36px;
+  padding-left: 8px;
+  align-items: center;
+  font-weight: 600px;
+  font-size: 14px;
+}
+
+/* ------------------------------PROS---------------------------------- */
+#learn {
+  color: #C271FF;
 }
 
 
-/* --------Mainpart------------- */
-
-.main-part{
-    background-image: url(/assets/Object.png) ;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 600px;
-    justify-items: center;
-
-    
+div h2 {
+  margin-top: 144px;
+  margin-left: 32px;
+  font-size: 32px;
+  font-weight: 261px;
+  height: 40px;
+  color: #ffffff;
+}
+div.pros {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.pro-cards {
+  color: #ffffff;
+  margin-top: 65px;
+  margin-bottom: 65px;
+  margin-left: 100px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 10px;
+}
+.pro-cards img {
+  height: 90px;
+  width: 90px;
+}
+.bruce {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  
+}
+.pro-cards h3 {
+  margin-bottom: auto;
+  font-size: 18px;
 
 }
 
 
 
 
-/* --------------------- */
-/* --------------------- */
-/* --------------------- */
-/* --------------------- */
+
+
+/* ------------------------------NAVBAR---------------------------------- */
+/* ------------------------------NAVBAR---------------------------------- */
+/* ------------------------------NAVBAR---------------------------------- */
+/* ------------------------------NAVBAR---------------------------------- */
+
 
