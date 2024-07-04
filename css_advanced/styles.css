@@ -83,11 +83,12 @@ img{
 
 /* ------------------------------BODY---------------------------------- */
 body {
-  /* display: flex;
-  flex-direction: column; */
   background: url(/assets/Object.png) no-repeat ;
   background-size: contain;
   height: 2093px;
+  /* display: flex;
+  flex-direction: column; */
+ 
 
 }
 /* ------------------------------NAVBAR---------------------------------- */
@@ -127,6 +128,10 @@ body {
   text-decoration: none;
 }
 /* ------------------------------MAINPART---------------------------------- */
+
+.main-part {
+  margin-bottom: 0;
+}
 .main-part div{
   display: flex;
   flex-direction: column;
@@ -213,9 +218,40 @@ div.pros {
   
 }
 .pro-cards h3 {
-  margin-bottom: auto;
+  margin-bottom: 9px;
   font-size: 18px;
 
+}
+/* ------------------------------TESTIMONIALS---------------------------------- */
+.testimonial {
+  background-color: #C271FF;
+  margin-top: -43px;
+  height: 392px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #ffffff;
+  
+}
+.testimonial div {
+  padding-top: 95px;
+  max-width: 43%;
+
+}
+.testimonial div img {
+  height: 120px;
+  width: 120px;
+}
+
+.weather-presenter {
+  margin-left: 36px;
+
+}
+.weather-presenter h3 {
+  margin-top: 40px;
+}
+.weather-presenter p {
+  margin-top: 7px;
 }
 
 
@@ -223,7 +259,10 @@ div.pros {
 
 
 
-/* ------------------------------NAVBAR---------------------------------- */
+
+
+
+
 /* ------------------------------NAVBAR---------------------------------- */
 /* ------------------------------NAVBAR---------------------------------- */
 /* ------------------------------NAVBAR---------------------------------- */
