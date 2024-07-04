@@ -160,7 +160,7 @@ div .emotions span {
 
 }
 /* ------------------------------BUTTON---------------------------------- */
-button {
+.button {
   border-style: none;
   width: 169px;
   height: 44px;
@@ -256,24 +256,117 @@ div.pros {
 
 
 /* ------------------------------TUTORIAL---------------------------------- */
-.tutorials h2{
+#tutorials-header {
   text-align: center;
-  font-size: 32px;
+  padding-top: 70px;
   font-weight: 300px;
-  margin-top: 65px;
-
+  font-size: 22px;
 }
 #popular {
   color: #C271FF;
-
 }
-
-.smile-type {
+.tutorials{
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  width: 75%;
+  margin-left: 135px;
+
+ 
+}
+.smile-type {
+  margin-top: 60px;
+  margin-left: 10px;
+  /* width: fit-content; */
+}
+.card-img {
+  width: 234px;
+  
+}
+.smile-type div h3 {
+  margin: 12px;
+  color: #071629;
+  font-weight: bolder;
+  font-size: 12px;
+
+}
+.smile-type div p {
+  width: 242px;
+  font-weight: lighter;
+  font-size: smaller;
+  line-height: 20px;
+  margin-bottom: 8px;
+
+}
+.card-phillip {
+  display: flex;
+  align-items: center;
+  font-size: 9px;
+  color: #C271FF;
+}
+.card-phillip img {
+  width: 30px;
+  height: 30px;
+  margin-right: 6px;
+}
+.starz {
+  display: flex;
+  color: #C271FF;
+  margin-top: 9px;
+}
+.starz p {
+  max-width: 32px;
+  margin-left: 100px;
+}
+/* ------------------------------FREE MEMBERSHIP---------------------------------- */
+
+.membership {
+  background-color: #071629;
+  margin-top: 59px;
+  color: #ffffff;
+  /* justify-items: center; */
 }
 
-/* ------------------------------NAVBAR---------------------------------- */
+.membership-info {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  margin-left: 21px;
+  margin-right: 3px;
+}
+#membership-header {
+  text-align: center;
+  padding-top: 54px;
+  font-weight: 300px;
+  font-size: 22px;
+  
+}
+#free {
+  color: #C271FF;
+}
+.smile-logo {
+  margin-left: 109px;
+  margin-top: 42px;
+  color: #ffffff;
+}
+.smile-logo img{
+  margin: 22px;
+  padding-left: 22px ;
+}
+.smile-logo h3 {
+  font-size: 18px;
+  margin: 12px;
+
+}
+
+.smile-logo p{
+  font-size: 12px;
+  line-height: 20px;
+}
+.membership .button {
+  margin-left: 44%;
+  margin-top: 79px;
+  margin-bottom: 34px;
+}
 /* ------------------------------NAVBAR---------------------------------- */
 
 
