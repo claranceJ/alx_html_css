@@ -225,13 +225,12 @@ div.pros {
 /* ------------------------------TESTIMONIALS---------------------------------- */
 .testimonial {
   background-color: #C271FF;
-  margin-top: -43px;
-  height: 392px;
+  margin-top: -48px;
+  height: 350px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   color: #ffffff;
-  
 }
 .testimonial div {
   padding-top: 95px;
@@ -242,15 +241,19 @@ div.pros {
   height: 120px;
   width: 120px;
 }
+.test-div {
+  margin-left: 67px;
+  margin-top: 43px;
+}
 
 .weather-presenter {
   margin-left: 36px;
 
 }
-.weather-presenter h3 {
-  margin-top: 40px;
+.test-div h3 {
+  margin-top: 49px;
 }
-.weather-presenter p {
+.test-div p {
   margin-top: 7px;
 }
 
@@ -264,6 +267,11 @@ div.pros {
 }
 #popular {
   color: #C271FF;
+}
+.smile-type div .play-button {
+
+  background-image: url(/assets/play.png);
+ 
 }
 .tutorials{
   display: flex;
@@ -317,6 +325,9 @@ div.pros {
   max-width: 32px;
   margin-left: 100px;
 }
+.last-star {
+  color: #D8D8D8;
+}
 /* ------------------------------FREE MEMBERSHIP---------------------------------- */
 
 .membership {
@@ -367,6 +378,67 @@ div.pros {
   margin-top: 79px;
   margin-bottom: 34px;
 }
-/* ------------------------------NAVBAR---------------------------------- */
+.button:hover{
+  background-color: #ffffff28;
 
+}
+/* ------------------------------FAQ---------------------------------- */
+.faq-head {
+  text-align: center;
+  padding-top: 12px;
+  margin-top: 76px;
+  margin-bottom: 76px;
+  margin-left: 12px;
+  font-size: 60px;
+}
+.faq {
+  column-count: 2;
+  column-gap: 12px;
+  margin-left: 32px; 
+  
+}
 
+.faq-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  margin-left: 105px;
+  margin-right: 105px;
+  }
+  .work-header {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  .work-body {
+    margin-bottom: 60px;
+    line-height: 26px;
+  }
+
+  /* ------------------------------FOOTER---------------------------------- */
+footer {
+  background-color: #071629;
+  height: 160px;
+}
+.footer-info {
+  display: flex;
+  justify-items: center;
+  padding-top: 62px;
+}
+.footer-info img {
+  padding-left: 12%;
+}
+.icons {
+  margin-left: 47%;
+ 
+}
+.fa-brands {
+  color: #ffffff;
+  margin-left: 22px;
+}
+#copyright {
+  text-align: center;
+  margin-top: 42px;
+}
