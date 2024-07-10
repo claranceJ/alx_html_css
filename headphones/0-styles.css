@@ -146,10 +146,15 @@ body {
 
 /* ---------------------------Media-query------------------------------------------- */
 @media screen and (max-width: 480px) {
-  .container {
+  body {
     background-color: aqua;
-    display: flex;
-    flex-direction: column;
+  
+  }
+  .nav-bar ul {
+    display: none;
+  }
+  main-part {
+    display: block;
   }
 }
 /* ---------------------------Main-Part------------------------------------------- */
